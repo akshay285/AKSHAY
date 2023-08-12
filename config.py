@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26992289"))
 API_HASH = os.environ.get("API_HASH", "5d7806f8eaa060d1f68843772b9d67cc")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001691644684"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001786495584"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1323102103"))
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel to use me\n\nKindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
